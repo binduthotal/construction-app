@@ -24,10 +24,10 @@ function sendEmail(name,mail,ph,msg){
   Email.send({
     // Host: "smtp.secureserver.net",
     Host: "smtp.gmail.com",
-    Username: "HomeKrater@gmail.com",
-    Password: "Home@666",
-    To: "HomeKrater@gmail.com",
-    From: "HomeKrater@gmail.com",
+    Username: "**********@gmail.com",
+    Password: "******",
+    To: "*****@gmail.com",
+    From: "*******@gmail.com",
     Subject: "Enquiry mail from "+ name+"",
     Body: "Name: "+ name +" <br /> <br /> Email: "+mail+" <br />  <br /> Phone: "+ph+" <br />  <br /> Message: "+msg+" ",
   }).then(
